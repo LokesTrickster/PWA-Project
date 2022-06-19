@@ -1,0 +1,107 @@
+section {
+    min-height: calc(100vh - 120px - 16px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 30pt;
+}
+
+form {
+    display: flex;
+    width: 300px;
+    flex-direction: column;
+    background-color: rgb(40, 74, 102);
+    border: 2px solid rgb(26, 44, 56);
+    padding: 25px;
+    border-radius: .35em;
+}
+
+span {
+    font-size: small;
+    color: white;
+}
+
+span a {
+    color: rgb(0, 132, 255);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+span a:hover {
+    color: rgb(0, 193, 252)
+}
+
+span a:active {
+    color: rgb(0, 91, 175);
+}
+
+form>div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+form>label {
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+
+.error,
+.success {
+    border-radius: .35em;
+    padding: 2px 0;
+    width: 350px;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.success {
+    border: 2px solid lime;
+    color: lime;
+}
+
+.error {
+    border: 2px solid orangered;
+    color: orangered;
+}
+
+form>input {
+    outline: none;
+    border: 2px solid darkgray;
+    height: 25px;
+    border-radius: .35em;
+    padding: 0 5px;
+    color: rgb(109, 109, 109);
+    font-weight: 700;
+}
+
+form>input {
+    margin-bottom: 10px;
+}
+
+input[type="Submit"] {
+    border: 2px solid darkgray;
+    background: lightgray;
+    border-radius: .35em;
+    width: 75px;
+    height: 25px;
+}
+
+input[type="Submit"]:hover {
+    cursor: pointer;
+    background-color: white;
+}
+
+input[type="Submit"]:active {
+    background-color: darkgray;
+}
+
+form>label {
+    color: var(--highlight);
+}

@@ -1,0 +1,17 @@
+footer {
+    min-height: 50px;
+    background-color: var(--accent);
+    border: 5px solid var(--primary);
+
+    display: flex;
+
+    align-items: center;
+    justify-content: flex-end;
+
+    color: var(--secondary);
+    padding: 0 10px;
+}
+
+footer p {
+    font-size: 10pt;
+}

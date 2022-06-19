@@ -1,0 +1,76 @@
+col {
+    width: 25%;
+}
+
+th {
+    color: var(--highlight);
+}
+
+section {
+    min-height: calc(100vh - 60px - 70px - 6px);
+}
+
+table {
+    border: 2px solid white;
+    border-radius: .25em;
+    margin: 15px 0;
+}
+
+table,
+td,
+th {
+    border-spacing: 0;
+}
+
+th {
+    outline: 1px solid white;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+}
+
+th:first-child {
+    border-left: 2px solid white;
+}
+
+th:last-child {
+    border-right: 2px solid white;
+}
+
+td {
+    padding: 2px 5px;
+    color: var(--secondary);
+    border: 1px solid gray;
+}
+
+.pageButtons {
+    text-align: center;
+}
+
+.pageButtons>button {
+    border: none;
+    background: none;
+    color: white;
+    border: 2px solid var(--secondary);
+    border-radius: .25em;
+    width: 100px;
+}
+
+.pageButtons>button:disabled {
+    background-color: gray;
+}
+
+.pageButtons>button:not(:disabled):hover {
+    background-color: var(--secondary);
+    cursor: pointer;
+}
+
+.pageButtons>button:not(:disabled):active {
+    background-color: #888;
+}
+
+#difficulty_select {
+    margin-top: 15px;
+    height: 25px;
+    border-radius: .35em;
+    border: 2px solid gray;
+}
