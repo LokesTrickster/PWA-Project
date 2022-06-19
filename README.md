@@ -1,1 +1,1 @@
-Visit the [site](https://lokes-atm7.ddns.net)
+Visit the [site](http://lokes-atm7.ddns.net)
